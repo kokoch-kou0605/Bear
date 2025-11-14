@@ -8,9 +8,9 @@ from google.oauth2 import id_token
 from google.auth.transport import requests as google_requests
 
 app = Flask(__name__)
-app.secret_key = 'a_very_long_and_random_string_that_no_one_can_guess_12345'
+app.secret_key = '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'
 
-CLIENT_ID = "395791546336-2gegvqd4ion6f3jhvjjvjr1mo79mj295.apps.googleusercontent.com"
+CLIENT_ID = "395791546336-9ha95df5qi7iigapt79bcav38sop0dha.apps.googleusercontent.com"
 
 DATA_FILE = "data.json"
 tf = TimezoneFinder()
